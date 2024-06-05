@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#bg-vdo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -999;
+}
+
+.title {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.btn-outline-light:hover .icon {
+    color: black;
+}
